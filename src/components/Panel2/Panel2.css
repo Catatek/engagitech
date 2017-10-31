@@ -1,0 +1,47 @@
+.Panel2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2a2b2a;
+  width: 100%;
+  height: 70vh;
+}
+
+.vrText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 70px;
+  margin-left: 5%;
+}
+
+.vrText span {
+  color: #e9eae9;
+}
+
+.Panel2 img {
+  width: 250px;
+  height: 250px;
+}
+
+.headset {
+  margin: 0 0 -2% 21%;
+}
+
+.headsetContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% 0 0 10%;
+  height: 100%;
+}
+
+#plus {
+  color: #c45a59;
+}
+
+#line {
+  width: 6px;
+  height: 140px;
+}
