@@ -21,12 +21,11 @@
 }
 
 .vrText span {
-  color: #e9eae9;
+  color: #ffffff;
   font-size: 82px;
   font-family: 'Core Circus 3D', sans-serif;
-  padding: .3em 0;
+  padding: 0.3em 0;
 }
-
 
 .headset {
   width: 285px;
@@ -42,5 +41,5 @@
   display: flex;
   flex-direction: column;
   align-self: flex-end;
-  margin-left: 3em;
+  margin-left: 3.5em;
 }
