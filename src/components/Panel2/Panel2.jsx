@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Panel2.css';
 
-import headset from '../../Assets/vrHeadset.png';
+import headset from '../../Assets/vrHeadset2.png';
 import globe from '../../Assets/vrGlobe.png';
 import line from '../../Assets/line.png';
 
@@ -16,7 +16,6 @@ class Panel2 extends Component {
         </div>
         <div className="headsetContainer">
           <img className="headset" src={headset} alt="" />
-          <img id="line" src={line} alt="" />
         </div>
         <div className="globeContainer">
           <img className="globe" src={globe} alt="" />
