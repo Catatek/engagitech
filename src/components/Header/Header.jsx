@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from '../../assets/engagitechLogo.png';
+import Logo from '../../Assets/engagitechLogo.png';
 import styles from './Header.css';
 
 class Header extends Component {
