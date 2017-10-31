@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Intro Book';
+  src: url('../../Assets/fonts/IntroBookRegular.otf');
+}
+
+@font-face {
+  font-family: 'Intro Black';
+  src: url('../../Assets/fonts/IntroBlackRegular.otf');
+}
+
+.Container5 {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.station {
+  width: 250px;
+  height: 475px;
+}
+
+.photoStation {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container5Text {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 2em;
+  margin-top: 5.5em;
+}
+
+.container5Text h2 {
+  color: #fd6d6e;
+  font-family: 'Intro Black', sans-serif;
+  font-size: 1.6em;
+}
+
+.container5Text {
+  color: #2b2b2b;
+  font-family: 'Intro Book', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
