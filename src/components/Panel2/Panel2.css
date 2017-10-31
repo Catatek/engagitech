@@ -1,31 +1,39 @@
+@font-face {
+  font-family: 'Core Circus 3D';
+  src: url('../../Assets/fonts/CoreCircus3DFrame.otf');
+}
+
 .Panel2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #2a2b2a;
-  width: 100%;
-  height: 70vh;
+  background-color: #2b2b2b;
+  height: 90vh;
 }
 
 .vrText {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 70px;
-  margin-left: 5%;
 }
 
 .vrText span {
   color: #e9eae9;
+  font-size: 82px;
+  font-family: 'Core Circus 3D', sans-serif;
+  padding: .4em 0;
 }
 
-.Panel2 img {
-  width: 250px;
-  height: 250px;
-}
 
 .headset {
-  margin: 0 0 -2% 21%;
+  /*margin: 0 0 -2% 20.5%;*/
+  width: 277px;
+  height: 257px;
+}
+
+.globe {
+  width: 240px;
+  height: 240px;
 }
 
 .headsetContainer {
@@ -33,15 +41,14 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: 10% 0 0 10%;
   height: 100%;
 }
 
-#plus {
-  color: #c45a59;
-}
 
 #line {
-  width: 6px;
-  height: 140px;
+  height: 250px;
+  width: 10px;
+  position: absolute;
+  bottom: -44em;
+  left: 32.4em;
 }

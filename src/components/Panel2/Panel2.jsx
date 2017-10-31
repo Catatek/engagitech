@@ -11,14 +11,14 @@ class Panel2 extends Component {
       <div className="Panel2">
         <div className="vrText">
           <span>vr</span>
-          <span id="plus">+</span>
+          <span>+</span>
           <span>ar</span>
         </div>
         <div className="headsetContainer">
           <img className="headset" src={headset} alt="" />
           <img id="line" src={line} alt="" />
         </div>
-        <img src={globe} alt="" />
+        <img className="globe" src={globe} alt="" />
       </div>
     );
   }
