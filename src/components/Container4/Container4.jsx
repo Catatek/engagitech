@@ -20,7 +20,7 @@ class Container4 extends Component {
           </p>
         </div>
         <div className="div2">
-          <img src={Hashtag} alt="Hashtag" />
+          <img className="hashtagSVG" src={Hashtag} alt="Hashtag" />
         </div>
       </div>
     );
