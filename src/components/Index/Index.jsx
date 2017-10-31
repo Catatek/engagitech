@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
-import './Index.css';
+import React, { Component } from 'react'
+import Header from '../Header/Header'
 
 class Index extends Component {
-  render() {
-    return <div className="Index">...</div>;
+  render () {
+    return <div className='Index'>
+      <Header />
+    </div>
   }
 }
 
