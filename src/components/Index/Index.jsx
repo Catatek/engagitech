@@ -5,6 +5,7 @@ import Container3 from '../Container3/Container3';
 import Container4 from '../Container4/Container4';
 import Container5 from '../Container5/Container5';
 import Container6 from '../Container6/Container6';
+import Container7 from '../Container7/Container7';
 
 class Index extends Component {
   render() {
@@ -16,6 +17,7 @@ class Index extends Component {
         <Container4 />
         <Container5 />
         <Container6 />
+        <Container7 />
       </div>
     );
   }
