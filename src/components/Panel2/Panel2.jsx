@@ -18,7 +18,9 @@ class Panel2 extends Component {
           <img className="headset" src={headset} alt="" />
           <img id="line" src={line} alt="" />
         </div>
-        <img className="globe" src={globe} alt="" />
+        <div className="globeContainer">
+          <img className="globe" src={globe} alt="" />
+        </div>
       </div>
     );
   }

@@ -15,25 +15,38 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 4em;
+  position: absolute;
+  left: 10em;
+  bottom: -35em;
+  letter-spacing: 1.3em;
 }
 
 .vrText span {
   color: #e9eae9;
   font-size: 82px;
   font-family: 'Core Circus 3D', sans-serif;
-  padding: .4em 0;
+  padding: .3em 0;
 }
 
 
 .headset {
-  /*margin: 0 0 -2% 20.5%;*/
   width: 277px;
   height: 257px;
+  position: absolute;
+  bottom: -28em;
+  left: 33em;
 }
 
 .globe {
-  width: 240px;
-  height: 240px;
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  right: 6em;
+  bottom: -28em;
+}
+
+.globeContainer {
 }
 
 .headsetContainer {
@@ -41,14 +54,13 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 100%;
 }
 
 
 #line {
-  height: 250px;
-  width: 10px;
+  height: 220px;
+  width: 9px;
   position: absolute;
-  bottom: -44em;
-  left: 32.4em;
+  bottom: -40.8em;
+  left: 39.55em;
 }

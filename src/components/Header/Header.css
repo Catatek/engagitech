@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'Core Circus';
+  src: url('../../Assets/fonts/CoreCircus.otf');
+}
+
+
 .Header {
   background-image: url('../../Assets/spaceHeader.png');
-  background-attachment: fixed ; 
+  background-attachment: fixed ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,9 +32,10 @@
 }
 
 .Header h3 {
-  margin: 0.8em;
+  margin: 1em;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-family: 'Core Circus', sans-serif;
 }
 
 .fa-angle-down {
