@@ -6,6 +6,12 @@ import Container4 from '../Container4/Container4';
 import Container5 from '../Container5/Container5';
 import Container6 from '../Container6/Container6';
 import Container7 from '../Container7/Container7';
+import Container8 from '../Container8/Container8';
+import Container9 from '../Container9/Container9';
+import Container10 from '../Container10/Container10';
+import Container11 from '../Container11/Container11';
+import Container12 from '../Container12/Container12';
+import Container13 from '../Container13/Container13';
 
 class Index extends Component {
   render() {
@@ -18,6 +24,12 @@ class Index extends Component {
         <Container5 />
         <Container6 />
         <Container7 />
+        <Container8 />
+        <Container9 />
+        <Container10 />
+        <Container11 />
+        <Container12 />
+        <Container13 />
       </div>
     );
   }
