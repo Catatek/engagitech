@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Container4.css';
-import Hashtag from '../../Assets/hashtag.svg';
+import Hashtag from '../../Assets/hashtag.png';
 
 class Container4 extends Component {
   render() {

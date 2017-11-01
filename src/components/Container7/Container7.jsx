@@ -5,7 +5,9 @@ class Container7 extends Component {
   render() {
     return (
       <div className="Container7">
-        <div className="flowCam" />
+        <div className="flowCam">
+          
+        </div>
         <div className="container7Text">
           <h2>FLOW CAM</h2>
           <h3>YOU'RE NOT TWO-DIMENSIONAL </h3>
