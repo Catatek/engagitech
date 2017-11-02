@@ -24,7 +24,7 @@
 .selfieImage {
   background-image: url('../../Assets/selfieImage.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 45%;
   height: 100%;
   display: flex;

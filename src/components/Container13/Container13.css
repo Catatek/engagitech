@@ -1,28 +1,53 @@
 .Container13 {
   height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../../Assets/spaceFooter.png');
+  background-image: url('../../Assets/spaceFooter.jpg');
   background-size: cover;
 }
 
 .bookNow {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookNow h2 {
   border: 2px solid #FD6D6E;
   border-radius: 15px;
   padding: 1em 2em;
-  margin-top: 3em;
+  margin-top: 4.5em;
   color: #ffffff;
   background-color: #FD6D6E;
-  width: 20%;
+  font-family: 'Core Circus', sans-serif;
 }
 
 .footerLogo {
+  width: 500px;
+  height: 100px;
+}
+
+.container13Row {
+  padding: 0 2.6em;
   display: flex;
   flex-direction: column;
+  margin-top: 11em;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.socialMedia h3 {
+  font-family: 'Core Circus', sans-serif;
+  color: #ffffff;
+  letter-spacing: .4em;
+}
+
+.socialMedia i {
+  color: #FD6D6E;
+  font-size: 3em;
+  padding: .2em 0;
 }
