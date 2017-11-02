@@ -1,0 +1,28 @@
+.Container13 {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../Assets/spaceFooter.png');
+  background-size: cover;
+}
+
+.bookNow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #FD6D6E;
+  border-radius: 15px;
+  padding: 1em 2em;
+  margin-top: 3em;
+  color: #ffffff;
+  background-color: #FD6D6E;
+  width: 20%;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+}
