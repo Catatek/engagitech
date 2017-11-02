@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import styles from './Container3.css';
+import $ from 'jquery';
+import * as ScrollMagic from 'scrollmagic'
+import fade from '../../script.js';
+
+
 
 class Container3 extends Component {
   render() {
     return (
       <div className="Container3">
-        <div className="container3Text">
+        <div id="container3Id" className="container3Text">
           <p>
             With virtually endless possibilities, we'll create a completely
             custom  experience centered around your brand.

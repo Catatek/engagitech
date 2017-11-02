@@ -33,3 +33,14 @@
 .container3Text h3 {
   font-family: 'Core Circus', sans-serif;
 }
+
+.container3Text {
+  opacity: 0;
+  transform: translateY(-40px);
+  transition: all 2s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}

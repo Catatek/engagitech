@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import styles from './Container5.css';
 import Station from '../../Assets/mediaStation.png';
+import Phone from '../../Assets/phone.png';
 
 class Container5 extends Component {
   render() {
     return (
-      <div className="Container5">
+      <div  id="trigger" className="Container5">
         <div className="photoStation">
           <img className="station" src={Station} alt="Photo Booth Station" />
+          {/* <img id="object1" src={Phone} alt="phone" /> */}
         </div>
-        <div className="container5Text">
+        <div id="container5Id" className="container5Text">
           <h2>MEDIA STATION</h2>
           <p>Looking for a monster content creator?  </p>
           <p>

@@ -5,7 +5,7 @@ class Container6 extends Component {
   render() {
     return (
       <div className="Container6">
-        <div className="container6Text">
+        <div id="container6Id" className="container6Text">
           <h2>FOTO RANGER</h2>
           <p>
             Our Foto Ranger roams about your event, engages with your guests

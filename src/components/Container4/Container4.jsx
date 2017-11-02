@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import styles from './Container4.css';
 import Hashtag from '../../Assets/hashtag.png';
 
+
 class Container4 extends Component {
   render() {
     return (
       <div className="Container4">
-        <div className="div1">
+        <div id="container4Id" className="div1">
           <h2>#HASHTAG PRINTING</h2>
           <p>
             Hashtag Printing takes guests' photos from digital to physical.
@@ -19,7 +20,7 @@ class Container4 extends Component {
             hands.
           </p>
         </div>
-        <div className="div2">
+        <div id="hashtagPartyColor"className="div2">
           <img className="hashtagSVG" src={Hashtag} alt="Hashtag" />
         </div>
       </div>

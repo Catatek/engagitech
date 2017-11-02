@@ -6,9 +6,9 @@ class Container7 extends Component {
     return (
       <div className="Container7">
         <div className="flowCam">
-          
+
         </div>
-        <div className="container7Text">
+        <div id="container7Id" className="container7Text">
           <h2>FLOW CAM</h2>
           <h3>YOU'RE NOT TWO-DIMENSIONAL </h3>
           <p>

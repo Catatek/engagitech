@@ -47,3 +47,19 @@
   font-family: 'Intro Book', sans-serif;
   line-height: 1.4em;
 }
+
+.container5Text {
+  opacity: 0;
+  transform: translateY(-40px);
+  transition: all 2s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#object1 {
+  position: absolute;
+  top: 4em;
+}
