@@ -49,3 +49,6 @@
   font-size: 3em;
   padding: 0.2em 0;
 }
+
+@media screen and (max-width: 535px) {
+}
