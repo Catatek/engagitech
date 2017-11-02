@@ -65,3 +65,14 @@
   filter: grayscale(0);
   transition: all 2s ease-in;
 }
+
+@media screen and (max-width: 535px) {
+  .Container4 {
+    height: 100vh;
+  }
+
+  .hashtagSVG {
+    width: 160px;
+    height: 160px;
+  }
+}
