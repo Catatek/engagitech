@@ -36,8 +36,8 @@
 
 .container3Text {
   opacity: 0;
-  transform: translateY(-40px);
-  transition: all 2s ease-out;
+  transform: translateY(-20px);
+  transition: all 1s ease-out;
 }
 
 .fade-in {
