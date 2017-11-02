@@ -52,14 +52,12 @@
   }
 
   .vrText {
-    /*align-items: center;*/
     margin-top: 0;
     letter-spacing: 0.5em;
   }
 
   .vrText span {
     font-size: 65px;
-    font-family: 'Core Circus 3D', sans-serif;
     padding: 0;
   }
 
