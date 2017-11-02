@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Intro Book';
+  src: url('../../Assets/fonts/IntroBookRegular.otf');
+}
+
+@font-face {
+  font-family: 'Core Circus';
+  src: url('../../Assets/fonts/CoreCircus.otf');
+}
+
+@font-face {
+  font-family: 'Core Circus 3D';
+  src: url('../../Assets/fonts/CoreCircus3DFrame.otf');
+}
+
+
+.Container11 {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.container11Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url('../../Assets/container11Background.jpg');
+  background-size: cover;
+  width: 50%;
+  padding-left: 2.8em;
+  padding-right: .5em;
+}
+
+.container11Text h2 {
+  font-family: 'Core Circus 3D', sans-serif;
+  font-size: 3em;
+}
+
+.container11Text p {
+  font-family: 'Intro Book', sans-serif;
+  line-height: 1.4em;
+  color: #2b2b2b;
+  width: 80%;
+}
+
+.container11Image {
+  background-image: url('../../Assets/container11Image.jpg');
+  background-size: cover;
+  width: 50%;
+}
+
+#madness {
+  color: #FD6F6E;
+  margin-top: -.5em;
+}
