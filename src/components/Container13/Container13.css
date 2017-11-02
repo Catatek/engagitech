@@ -12,12 +12,12 @@
 }
 
 .bookNow h2 {
-  border: 2px solid #FD6D6E;
+  border: 2px solid #fd6d6e;
   border-radius: 15px;
   padding: 1em 2em;
   margin-top: 4.5em;
   color: #ffffff;
-  background-color: #FD6D6E;
+  background-color: #fd6d6e;
   font-family: 'Core Circus', sans-serif;
 }
 
@@ -36,18 +36,16 @@
 .socialMedia {
   display: flex;
   flex-direction: column;
-
-
 }
 
 .socialMedia h3 {
   font-family: 'Core Circus', sans-serif;
   color: #ffffff;
-  letter-spacing: .4em;
+  letter-spacing: 0.4em;
 }
 
 .socialMedia i {
-  color: #FD6D6E;
+  color: #fd6d6e;
   font-size: 3em;
-  padding: .2em 0;
+  padding: 0.2em 0;
 }

@@ -32,7 +32,6 @@
   align-items: flex-end;
 }
 
-
 .container8Text {
   width: 45%;
   padding-left: 5em;
@@ -41,7 +40,7 @@
 .container8Text h2 {
   font-family: 'Intro Black', sans-serif;
   font-size: 2em;
-  color: #FD6D6E;
+  color: #fd6d6e;
   text-transform: uppercase;
   padding-bottom: 1em;
 }
