@@ -22,7 +22,6 @@
 .container10Row {
   display: flex;
   flex-direction: row;
-
 }
 
 .container10Header {
@@ -47,7 +46,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   font-family: 'Intro Black', sans-serif;
-  color: #FD6D6E;
+  color: #fd6d6e;
   font-size: 2em;
 }
 

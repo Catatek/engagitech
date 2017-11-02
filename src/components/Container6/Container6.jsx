@@ -8,13 +8,12 @@ class Container6 extends Component {
         <div id="container6Id" className="container6Text">
           <h2>FOTO RANGER</h2>
           <p>
-            Our Foto Ranger roams about your event, engages with your guests
-             and captures their best moments. Photos transfer wirelessly for
-            instant  printing, ready for collecting in just a few short seconds.
+            Our Foto Ranger roams about your event, engages with your guests  and captures their best moments. Photos
+            transfer wirelessly for instant  printing, ready for collecting in just a few short seconds.
           </p>
           <p>
-            Photos can be overlaid with your message and brand for maximized
-             personalization. Instant event photography never looked so good.
+            Photos can be overlaid with your message and brand for maximized  personalization. Instant event photography
+            never looked so good.
           </p>
         </div>
         <div className="photoRanger" />

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './Container11.css'
+import styles from './Container11.css';
 
 class Container11 extends Component {
   render() {
@@ -8,15 +8,19 @@ class Container11 extends Component {
         <div className="container11Text">
           <h2>Microsite</h2>
           <h2 id="madness">Madness</h2>
-          <p>Let our creative wizards build out your campaign-based microsite  to be an independent site for the sole purpose of anchoring and  supporting your branded campaign.</p>
+          <p>
+            Let our creative wizards build out your campaign-based microsite  to be an independent site for the sole
+            purpose of anchoring and  supporting your branded campaign.
+          </p>
           <h3>Let us do all the heavy lifting.</h3>
-          <p>These micro-sites will be launched, outfitted with creative and content,  and amplified using our engaging photo and video installments.</p>
+          <p>
+            These micro-sites will be launched, outfitted with creative and content,  and amplified using our engaging
+            photo and video installments.
+          </p>
         </div>
-        <div className="container11Image">
-
-        </div>
-    </div>
-    )
+        <div className="container11Image" />
+      </div>
+    );
   }
 }
 

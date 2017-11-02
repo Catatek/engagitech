@@ -43,3 +43,38 @@
   align-self: flex-end;
   margin-left: 3.5em;
 }
+
+@media screen and (max-width: 535px) {
+  .Container2 {
+    flex-direction: column;
+    height: 100vh;
+    padding: 2em 0;
+  }
+
+  .vrText {
+    /*align-items: center;*/
+    margin-top: 0;
+    letter-spacing: 0.5em;
+  }
+
+  .vrText span {
+    font-size: 65px;
+    font-family: 'Core Circus 3D', sans-serif;
+    padding: 0;
+  }
+
+  .headset {
+    width: 150px;
+    height: 200px;
+  }
+
+  .globe {
+    width: 200px;
+    height: 200px;
+  }
+
+  .headsetContainer {
+    align-self: center;
+    margin-left: 0;
+  }
+}

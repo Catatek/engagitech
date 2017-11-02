@@ -13,7 +13,6 @@
   src: url('../../Assets/fonts/CoreCircus3DFrame.otf');
 }
 
-
 .Container11 {
   height: 90vh;
   display: flex;
@@ -29,7 +28,7 @@
   background-size: cover;
   width: 50%;
   padding-left: 2.8em;
-  padding-right: .5em;
+  padding-right: 0.5em;
 }
 
 .container11Text h2 {
@@ -51,6 +50,6 @@
 }
 
 #madness {
-  color: #FD6F6E;
-  margin-top: -.5em;
+  color: #fd6f6e;
+  margin-top: -0.5em;
 }
