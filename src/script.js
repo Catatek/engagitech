@@ -97,9 +97,9 @@ $(document).ready(function(){
   var tween = TweenMax.to("#object1", 1, {rotation: 360, ease: Linear.easeNone});
 
   var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 100})
-						.setTween(tween)
-						.setPin("#object1", {pushFollowers: false})
-						// .addIndicators() // add indicators (requires plugin)
-						.addTo(controller);
+            .setTween(tween)
+            .setPin("#object1", {pushFollowers: false})
+            // .addIndicators() // add indicators (requires plugin)
+            .addTo(controller);
 
   });
