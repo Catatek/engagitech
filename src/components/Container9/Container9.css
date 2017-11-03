@@ -55,21 +55,23 @@
   height: 417px;
 }
 
-.binary {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding-top: 10em;
-}
-
 @media screen and (max-width: 535px) {
   .Container9 {
     height: 100vh;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    padding: 2em 0;
+  }
+
+  .Container9 > img {
+    width: 160px;
+    height: 310px;
+    align-self: flex-start;
   }
 
   .container9Text {
-    margin: 0 0 0 0.5em;
-    width: 60%;
+    width: 75%;
   }
 
   .container9Text p {
@@ -89,14 +91,5 @@
     font-size: 1em;
     margin: 1em 0 0 0;
     padding: 0;
-  }
-
-  .binaryImage {
-    width: 180px;
-    height: 330px;
-  }
-
-  .binary {
-    padding-top: 5em;
   }
 }

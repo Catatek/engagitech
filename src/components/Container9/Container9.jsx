@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Container9.css';
-import Binary from '../../Assets/binary.png';
+import binary from '../../Assets/binary.png';
 
 class Container9 extends Component {
   render() {
@@ -20,9 +20,7 @@ class Container9 extends Component {
             (P.S. those numbers spell our name in binary… <br />  that’s how thorough we are.)
           </h3>
         </div>
-        <div className="binary">
-          <img className="binaryImage" src={Binary} alt="Binary Engagitech" />
-        </div>
+        <img className="binaryImage" src={binary} alt="Binary Engagitech" />
       </div>
     );
   }

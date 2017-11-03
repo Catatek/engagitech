@@ -66,8 +66,9 @@
   }
 
   .container10Row {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
+    justify-content: center;
   }
 
   .container10Header {
@@ -78,7 +79,6 @@
 
   .container10Text {
     display: flex;
-    flex-direction: column;
     align-content: center;
     justify-content: center;
     padding: 0 2em;
