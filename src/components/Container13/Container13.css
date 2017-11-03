@@ -64,6 +64,12 @@
   .socialMedia {
     display: flex;
     justify-content: space-around;
-    margin: 1em 0;
+    margin: 0.5em 0;
+  }
+
+  .socialMedia i {
+    color: #fd6d6e;
+    font-size: 2em;
+    padding: 0;
   }
 }

@@ -77,18 +77,23 @@
     margin: 0;
   }
 
-  .container9Text h3 {
-    line-height: 1.2em;
-  }
-
   .container9Text h2 {
     font-size: 2em;
+    padding: 0;
+    font-size: 2em;
+    margin: 0 0 0.1em 0;
+  }
+
+  .container9Text h3 {
+    line-height: 1.2em;
+    font-size: 1em;
+    margin: 1em 0 0 0;
     padding: 0;
   }
 
   .binaryImage {
-    width: 200px;
-    height: 350px;
+    width: 180px;
+    height: 330px;
   }
 
   .binary {
