@@ -10,11 +10,11 @@ class Container9 extends Component {
           <h2>Data for days</h2>
           <p>
             Our Data Capture capabilities range far and wide.  Don’t let your audience’s contact information slip
-            through.{' '}
+            through.
           </p>
           <p>
             Engage them using our interactive media solutions, and keep in touch with them by using  our technology to
-            capture their names, emails, address, social media handles, demographics, and more.{' '}
+            capture their names, emails, address, social media handles, demographics, and more.
           </p>
           <h3>
             (P.S. those numbers spell our name in binary… <br />  that’s how thorough we are.)

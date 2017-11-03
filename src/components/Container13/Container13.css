@@ -21,11 +21,6 @@
   font-family: 'Core Circus', sans-serif;
 }
 
-.footerLogo {
-  width: 500px;
-  height: 100px;
-}
-
 .container13Row {
   padding: 0 2.6em;
   display: flex;
@@ -38,7 +33,7 @@
   flex-direction: column;
 }
 
-.socialMedia h3 {
+.container13Row h3 {
   font-family: 'Core Circus', sans-serif;
   color: #ffffff;
   letter-spacing: 0.4em;
@@ -51,4 +46,24 @@
 }
 
 @media screen and (max-width: 535px) {
+  .Container13 {
+    height: 80vh;
+    background-size: cover;
+    background-position: right;
+  }
+
+  .socialMedia {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container13Row h3 {
+    letter-spacing: 0.2em;
+  }
+
+  .socialMedia {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0;
+  }
 }
