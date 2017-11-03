@@ -51,5 +51,11 @@
   }
   .container3Text {
     margin-left: 2em;
+    width: 55%;
+  }
+
+  .container3Text {
+    color: white;
+    text-shadow: 2px 2px 3px black;
   }
 }
