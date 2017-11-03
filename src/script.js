@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   var scene = new ScrollMagic.Scene({ triggerElement: '#trigger', duration: 100 })
     .setTween(tween)
-    .setPin('#object1', { pushFollowers: false })
-    // .addIndicators() // add indicators (requires plugin)
+    .setPin('#object1', { pushFollowers: true })
+    .setClassToggle('#trigger', 'movement')
     .addTo(controller);
 });

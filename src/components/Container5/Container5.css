@@ -25,6 +25,7 @@
   align-items: flex-end;
 }
 
+
 .container5Text {
   display: flex;
   width: 50%;
@@ -56,6 +57,16 @@
 .fade-in {
   opacity: 1;
   transform: translateY(0);
+}
+
+#object1 {
+  position: relative;
+}
+
+.movement {
+  opacity: 1;
+  transform: translateY(40px);
+  transform: rotate3d(20px);
 }
 
 @media screen and (max-width: 535px) {
