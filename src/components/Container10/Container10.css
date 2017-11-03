@@ -21,7 +21,11 @@
 
 .container10Row {
   display: flex;
-  flex-direction: row;
+}
+
+.container10Row > img {
+  height: 80%;
+  width: 50%;
 }
 
 .container10Header {
@@ -57,4 +61,45 @@
 }
 
 @media screen and (max-width: 535px) {
+  .Container10 {
+    height: 100vh;
+  }
+
+  .container10Row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container10Header {
+    font-family: 'Core Circus', sans-serif;
+    color: #2b2b2b;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 0;
+  }
+
+  .container10Text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .container10Text h2 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.5em;
+  }
+
+  .container10Text p {
+    line-height: 1.2em;
+  }
+
+  .container10Row > img {
+    height: 100%;
+    width: 70%;
+  }
 }
