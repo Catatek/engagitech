@@ -48,6 +48,18 @@
   padding-top: 1em;
 }
 
+.container8Text p {
+  font-family: 'Intro Book', sans-serif;
+  line-height: 1.4em;
+  color: #2b2b2b;
+}
+
+.container8Text h3 {
+  font-family: 'Core Circus', sans-serif;
+  color: #2b2b2b;
+  font-size: 1.2em;
+}
+
 @media screen and (max-width: 535px) {
   .Container8 {
     align-content: center;

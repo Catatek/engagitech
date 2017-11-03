@@ -9,7 +9,7 @@ class Container5 extends Component {
       <div className="Container5" id="trigger">
         <div className="photoStation">
           <img className="station" src={Station} alt="Photo Booth Station" />
-          {/* <img id="object1" src={Phone} alt="phone" /> */}
+          <img id="object1" src={Phone} alt="phone" />
         </div>
         <div id="container5Id" className="container5Text">
           <h2>MEDIA STATION</h2>
