@@ -4,7 +4,7 @@ import Station from '../../Assets/mediaStation.png';
 import Phone from '../../Assets/phone.png';
 import Polaroids from '../../Assets/polaroids.png';
 import Antenna from '../../Assets/antenna.svg';
-import Heart from '../../Assets/heart.png';
+import Heart from '../../Assets/heart.svg';
 import Like from '../../Assets/like.png';
 import Touch from '../../Assets/touch.png';
 import Video from '../../Assets/video.png';
