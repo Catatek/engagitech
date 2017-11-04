@@ -83,3 +83,21 @@
     margin-left: 0;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .vrText span {
+    font-size: 46px;
+    padding: 0.1em 0;
+  }
+  .headset2 {
+    display: none;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+
+  .globe {
+    width: 150px;
+    height: 150px;
+  }
+}
