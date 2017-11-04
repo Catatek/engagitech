@@ -28,20 +28,20 @@
 }
 
 .headset {
+  padding-left: 3em;
+  align-self: flex-end;
   width: 285px;
   height: 450px;
+}
+.headset2 {
+  display: none;
+  width: 150px;
+  height: 150px;
 }
 
 .globe {
   width: 260px;
   height: 260px;
-}
-
-.headsetContainer {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-  margin-left: 3.5em;
 }
 
 @media screen and (max-width: 535px) {
@@ -62,8 +62,15 @@
   }
 
   .headset {
+    display: none;
     width: 150px;
     height: 200px;
+  }
+
+  #headset2 {
+    display: inline;
+    width: 150px;
+    height: 140px;
   }
 
   .globe {
