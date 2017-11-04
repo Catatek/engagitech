@@ -19,8 +19,8 @@
   font-family: 'Intro Black', sans-serif;
   text-transform: uppercase;
   font-size: 2em;
-  color: #FD6F6E;
-  padding-bottom: .5em;
+  color: #fd6f6e;
+  padding-bottom: 0.5em;
   margin-top: 2.5em;
 }
 
@@ -34,5 +34,15 @@
   font-family: 'Intro Book', sans-serif;
   color: #ffffff;
   line-height: 1.4em;
+}
 
+@media screen and (max-width: 350px) {
+  .container14Text h2 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+  }
+  .Container14 {
+    height: 140vh;
+  }
 }

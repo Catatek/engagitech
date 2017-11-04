@@ -18,7 +18,7 @@
 }
 
 .yeahBoi {
-  animation: lightningSpeed .5s;
+  animation: lightningSpeed 0.5s;
   animation-fill-mode: forwards;
 }
 
@@ -34,10 +34,11 @@
   }
 }
 
-
-
 @media screen and (max-width: 535px) {
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 350px) {
+  .Container14 {
+    height: 140vh;
+  }
 }

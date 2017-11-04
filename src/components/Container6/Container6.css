@@ -84,3 +84,9 @@
     background-size: cover;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .Container6 {
+    height: 140vh;
+  }
+}

@@ -31,9 +31,9 @@
 }
 
 .fade-in {
-opacity: 1;
-transform: translateY(0px);
-animation-fill-mode: forwards;
+  opacity: 1;
+  transform: translateY(0px);
+  animation-fill-mode: forwards;
 }
 
 .container9Text h3 {
@@ -99,5 +99,11 @@ animation-fill-mode: forwards;
     font-size: 1em;
     margin: 1em 0 0 0;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Container9 {
+    height: 130vh;
   }
 }

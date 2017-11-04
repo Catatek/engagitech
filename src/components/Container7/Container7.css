@@ -111,3 +111,16 @@
     background-size: cover;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .Container7 {
+    height: 140vh;
+  }
+
+  .flowCam {
+    width: 100%;
+    height: 45%;
+    background-image: url('../../Assets/flowCam.jpg');
+    background-size: cover;
+  }
+}
