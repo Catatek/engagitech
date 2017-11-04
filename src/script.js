@@ -2,6 +2,10 @@ import $ from 'jquery';
 import * as ScrollMagic from 'scrollmagic';
 import TweenMax from 'gsap';
 import Linear from 'gsap';
+import TimelineMax from 'gsap';
+import Power1 from 'gsap';
+import 'gsap';
+import TweenLite from 'gsap';
 
 //////////////////////////////////////
 //COMPONENT FADE-IN/FADE-OUT FOR TEXT
@@ -61,7 +65,7 @@ $(document).ready(function() {
 //GRAYSCALE
 //////////////////////////////////////
 
-$(document).ready(function() {
+$(function () {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
@@ -71,15 +75,19 @@ $(document).ready(function() {
     .addTo(controller);
 });
 
-///
+//////////////////////////////////////
+//MOVEMENT
+//////////////////////////////////////
 
-$(document).ready(function() {
+
+$(function () {
+
   var controller = new ScrollMagic.Controller();
-  var tween = TweenMax.to('#object1', 1, { rotation: 360, ease: Linear.easeNone });
 
-  var scene = new ScrollMagic.Scene({ triggerElement: '#trigger', duration: 100 })
-    .setTween(tween)
-    .setPin('#object1', { pushFollowers: true })
-    .setClassToggle('#trigger', 'movement')
+  var scene = new ScrollMagic.Scene({
+    triggerElement: '#trigger',
+  })
+    .setClassToggle('#object1', 'movement')
     .addTo(controller);
-});
+
+})

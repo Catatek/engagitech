@@ -61,13 +61,26 @@
 
 #object1 {
   position: relative;
+  bottom: 18em;
+  left: -10em;
+  z-index: -1;
 }
 
 .movement {
-  opacity: 1;
-  transform: translateY(40px);
-  transform: rotate3d(20px);
+  animation: movement 1s;
+  animation-fill-mode: forwards;
 }
+
+@keyframes movement {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(200px) translateY(-150px) rotate(360deg);
+    opacity: 1;
+  }
+}
+
 
 @media screen and (max-width: 535px) {
   .Container5 {
