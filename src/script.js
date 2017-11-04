@@ -61,6 +61,76 @@ $(document).ready(function() {
     .addTo(controller);
 });
 
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '#container8Id',
+  })
+    .setClassToggle('#container8Id', 'fade-in')
+    .addTo(controller);
+});
+
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '#container9Id',
+  })
+    .setClassToggle('#container9Id', 'fade-in')
+    .addTo(controller);
+});
+
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '#container10Id',
+  })
+    .setClassToggle('#container10Id', 'fade-in')
+    .addTo(controller);
+});
+
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '#container11Id',
+  })
+    .setClassToggle('#container11Id', 'fade-in')
+    .addTo(controller);
+});
+
+//////////////////////////////////////
+//3D
+//////////////////////////////////////
+
+$(function () {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '#container7Id',
+  })
+    .setClassToggle('#letsMove', 'letsMoveIt')
+    .addTo(controller);
+});
+
+//////////////////////////////////////
+//Light Speed
+//////////////////////////////////////
+
+$(function () {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '#container12Id',
+  })
+    .setClassToggle('#lightSpeed', 'yeahBoi')
+    .addTo(controller);
+});
+
+
+
 //////////////////////////////////////
 //GRAYSCALE
 //////////////////////////////////////

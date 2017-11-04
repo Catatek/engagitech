@@ -34,6 +34,14 @@
 .container8Text {
   width: 45%;
   padding-left: 5em;
+  transform: translateY(-25px);
+  transition: all 1.5s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0px);
+  animation-fill-mode: forwards;
 }
 
 .container8Text h2 {

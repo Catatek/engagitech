@@ -28,6 +28,14 @@
   width: 50%;
   padding-left: 2.8em;
   padding-right: 0.5em;
+  transform: translateY(-25px);
+  transition: all 1.5s ease-out;
+}
+
+.fade-in {
+opacity: 1;
+transform: translateY(0px);
+animation-fill-mode: forwards;
 }
 
 .container11Text h2 {

@@ -9,7 +9,7 @@ class Container10 extends Component {
         <h2 className="container10Header">not all wristwear is created equal.</h2>
         <div className="container10Row">
           <img src={WristBand} alt="Engagitech Wristband" />
-          <div className="container10Text">
+          <div className="container10Text" id="container10Id">
             <h2>RFID</h2>
             <p>Streamline the experience with one wristband.</p>
             <p>
