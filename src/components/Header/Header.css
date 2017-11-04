@@ -42,6 +42,12 @@
   font-size: 2em;
 }
 
+.fa-angle-down:hover {
+  animation: growBig 4s ease-in;
+  cursor: pointer;
+  transform: scale(2);
+}
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
