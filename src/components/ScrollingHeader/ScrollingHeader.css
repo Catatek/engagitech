@@ -7,7 +7,7 @@
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
-  z-index: 5
+  z-index: 5;
 }
 
 .ScrollingHeader img {
@@ -30,9 +30,15 @@
 
 .contactInfo h3 {
   padding: 1.96em 2em;
-  background-color: #FE9897;
+  background-color: #fe9897;
   height: 100%;
   font-family: 'Intro Bold', sans-serif;
   text-transform: uppercase;
   color: #2b2b2b;
+}
+
+@media screen and (max-width: 550px) {
+  .ScrollingHeader {
+    display: none;
+  }
 }
