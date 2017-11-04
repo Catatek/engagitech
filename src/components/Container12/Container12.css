@@ -28,13 +28,22 @@
   }
   90% {
     transform: scale(1.2);
+    transition: transform 0.5s, opacity 0.3s;
   }
   100% {
-    transform: scale(1);
+    transform: scale(1.2);
+    transition: transform 0.5s, opacity 0.3s;
   }
 }
 
+.hex:hover {
+  transform: scale(1.2);
+}
+
 @media screen and (max-width: 535px) {
+  .Container12 h2 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 350px) {
