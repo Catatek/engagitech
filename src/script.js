@@ -87,7 +87,73 @@ $(function () {
   var scene = new ScrollMagic.Scene({
     triggerElement: '#trigger',
   })
-    .setClassToggle('#object1', 'movement')
+    .setClassToggle('#object1', 'movement1')
     .addTo(controller);
+})
 
+$(function () {
+
+  var controller = new ScrollMagic.Controller();
+
+  var scene = new ScrollMagic.Scene({
+    triggerElement: '#trigger',
+  })
+    .setClassToggle('#object2', 'movement2')
+    .addTo(controller);
+})
+
+$(function () {
+
+  var controller = new ScrollMagic.Controller();
+
+  var scene = new ScrollMagic.Scene({
+    triggerElement: '#trigger',
+  })
+    .setClassToggle('#object3', 'movement3')
+    .addTo(controller);
+})
+
+$(function () {
+
+  var controller = new ScrollMagic.Controller();
+
+  var scene = new ScrollMagic.Scene({
+    triggerElement: '#trigger',
+  })
+    .setClassToggle('#object4', 'movement4')
+    .addTo(controller);
+})
+
+$(function () {
+
+  var controller = new ScrollMagic.Controller();
+
+  var scene = new ScrollMagic.Scene({
+    triggerElement: '#trigger',
+  })
+    .setClassToggle('#object5', 'movement5')
+    .addTo(controller);
+})
+
+$(function () {
+
+  var controller = new ScrollMagic.Controller();
+
+  var scene = new ScrollMagic.Scene({
+    triggerElement: '#trigger',
+  })
+    .setClassToggle('#object6', 'movement6')
+    .addTo(controller);
+})
+
+
+$(function () {
+
+  var controller = new ScrollMagic.Controller();
+
+  var scene = new ScrollMagic.Scene({
+    triggerElement: '#trigger',
+  })
+    .setClassToggle('#object7', 'movement7')
+    .addTo(controller);
 })

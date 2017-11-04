@@ -16,6 +16,8 @@
 .station {
   width: 250px;
   height: 475px;
+  margin-left: 41em;
+  position: relative;
 }
 
 .photoStation {
@@ -66,17 +68,156 @@
   z-index: -1;
 }
 
-.movement {
-  animation: movement 1s;
+#object2 {
+  position: relative;
+  bottom: 18em;
+  left: -15em;
+  z-index: -1;
+}
+
+#object3 {
+  position: relative;
+  bottom: 30em;
+  left: -21.5em;
+}
+
+#object4 {
+  position: relative;
+  bottom: 17em;
+  left: -24.3em;
+  z-index: -1;
+}
+
+#object5 {
+  position: relative;
+  bottom: 20em;
+  left: -25em;
+  z-index: -1;
+}
+
+#object6 {
+  position: relative;
+  bottom: 18em;
+  left: -35em;
+  z-index: -1;
+}
+
+#object7 {
+  position: relative;
+  bottom: 18em;
+  left: -43em;
+  z-index: -1;
+}
+
+.movement1 {
+  animation: movement1 1s;
   animation-fill-mode: forwards;
 }
 
-@keyframes movement {
+.movement2 {
+  animation: movement2 2.4s;
+  animation-fill-mode: forwards;
+}
+
+.movement3 {
+  animation: movement3 4s;
+  animation-fill-mode: forwards;
+}
+
+.movement4 {
+  animation: movement4 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.movement5 {
+  animation: movement5 1.7s;
+  animation-fill-mode: forwards;
+}
+
+.movement6 {
+  animation: movement6 .8s;
+  animation-fill-mode: forwards;
+}
+
+.movement7 {
+  animation: movement7 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes movement1 {
   0% {
     opacity: 0;
   }
   100% {
-    transform: translateX(200px) translateY(-150px) rotate(360deg);
+    transform: translateX(225px) translateY(-175px) rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes movement2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px) translateY(-170px) rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes movement3 {
+  0% {
+    transform: scale(1.0);
+  }
+  20%,
+  40%,
+  60%,
+  100% {
+    transform: scale(1.1);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: scale(1.4);
+  }
+}
+
+@keyframes movement4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-210px) rotate(360deg) scale(.8);
+    opacity: 1;
+  }
+}
+
+@keyframes movement5 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(125px) rotate(360deg) scale(.8);
+    opacity: 1;
+  }
+}
+
+@keyframes movement6 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(225px) translateY(195px) rotate(360deg) scale(.6);
+    opacity: 1;
+  }
+}
+
+@keyframes movement7 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-210px) translateY(250px) rotate(360deg) scale(.6);
     opacity: 1;
   }
 }
