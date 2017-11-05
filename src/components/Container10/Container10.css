@@ -42,6 +42,14 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  transform: translateY(-25px);
+  transition: all 1.5s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0px);
+  animation-fill-mode: forwards;
 }
 
 .container10Text h2 {
@@ -93,5 +101,11 @@
   .container10Row > img {
     height: 100%;
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Container10 {
+    height: 140vh;
   }
 }

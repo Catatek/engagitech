@@ -7,7 +7,7 @@ class Container7 extends Component {
       <div className="Container7">
         <div className="flowCam" />
         <div id="container7Id" className="container7Text">
-          <h2>FLOW CAM</h2>
+          <h2 id="letsMove">FLOW CAM</h2>
           <h3>YOU'RE NOT TWO-DIMENSIONAL </h3>
           <p>Your content doesn't need to be either.  Flow Cam moves around your guests, capturing their best sides.</p>
           <p>

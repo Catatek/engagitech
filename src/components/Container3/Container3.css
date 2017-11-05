@@ -9,7 +9,7 @@
 }
 
 .Container3 {
-  background-image: url('../../Assets/vrWoman.png');
+  background-image: url('../../Assets/vrWoman.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
@@ -47,6 +47,21 @@
 @media screen and (max-width: 535px) {
   .Container3 {
     height: 100vh;
+    justify-content: flex-start;
+  }
+  .container3Text {
+    margin-left: 2em;
+    width: 55%;
+  }
+
+  .container3Text {
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  }
+}
+@media screen and (max-width: 350px) {
+  .Container3 {
+    height: 115vh;
     justify-content: flex-start;
   }
   .container3Text {

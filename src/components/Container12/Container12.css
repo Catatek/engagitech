@@ -17,8 +17,37 @@
   font-size: 2.5em;
 }
 
-@media screen and (max-width: 535px) {
+.yeahBoi {
+  animation: lightningSpeed 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes lightningSpeed {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    transform: scale(1.2);
+    transition: transform 0.5s, opacity 0.3s;
+  }
+  100% {
+    transform: scale(1.2);
+    transition: transform 0.5s, opacity 0.3s;
+  }
+}
+
+.hex:hover {
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 535px) {
+  .Container12 h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Container14 {
+    height: 140vh;
+  }
 }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import ScrollingHeader from '../ScrollingHeader/ScrollingHeader';
 import Header from '../Header/Header';
+import Container1 from '../Container1/Container1';
 import Container2 from '../Container2/Container2';
 import Container3 from '../Container3/Container3';
 import Container4 from '../Container4/Container4';
@@ -12,12 +14,15 @@ import Container10 from '../Container10/Container10';
 import Container11 from '../Container11/Container11';
 import Container12 from '../Container12/Container12';
 import Container13 from '../Container13/Container13';
+import Container14 from '../Container14/Container14';
 
 class Index extends Component {
   render() {
     return (
       <div className="Index">
+        <ScrollingHeader />
         <Header />
+        <Container1 />
         <Container2 />
         <Container3 />
         <Container4 />
@@ -28,6 +33,7 @@ class Index extends Component {
         <Container9 />
         <Container10 />
         <Container11 />
+        <Container14 />
         <Container12 />
         <Container13 />
       </div>

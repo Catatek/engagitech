@@ -5,7 +5,7 @@ class Container8 extends Component {
   render() {
     return (
       <div className="Container8">
-        <div className="container8Text">
+        <div className="container8Text" id="container8Id">
           <h2>Célfie STATION</h2>
           <p>
             For those in your audience who need no direction in taking pictures,  the Célfie Booth is the ultimate

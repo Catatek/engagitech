@@ -53,6 +53,14 @@
   flex-direction: column;
   align-items: flex-start;
   width: 55%;
+  transform: translateY(-25px);
+  transition: all 1.5s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0px);
+  animation-fill-mode: forwards;
 }
 
 .container9Text h3 {
@@ -120,5 +128,11 @@
     font-size: 1em;
     margin: 1em 0 0 0;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Container9 {
+    height: 130vh;
   }
 }

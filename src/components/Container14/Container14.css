@@ -1,0 +1,48 @@
+.Container14 {
+  height: 90vh;
+  background-image: url('../../Assets/office.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container14Text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 45%;
+  padding-left: 2em;
+}
+
+.container14Text h2 {
+  font-family: 'Intro Black', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #fd6f6e;
+  padding-bottom: 0.5em;
+  margin-top: 2.5em;
+}
+
+.container14Text h3 {
+  font-family: 'Core Circus', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.container14Text p {
+  font-family: 'Intro Book', sans-serif;
+  color: #ffffff;
+  line-height: 1.4em;
+}
+
+@media screen and (max-width: 350px) {
+  .container14Text h2 {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+  }
+  .Container14 {
+    height: 140vh;
+  }
+}

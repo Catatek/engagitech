@@ -44,13 +44,14 @@
 
 .container6Text {
   opacity: 0;
-  transform: translateY(-40px);
-  transition: all 2s ease-out;
+  transform: translateY(-25px);
+  transition: all 1.5s ease-out;
 }
 
 .fade-in {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0px);
+  animation-fill-mode: forwards;
 }
 
 @media screen and (max-width: 535px) {
@@ -81,5 +82,11 @@
     height: 50%;
     background-image: url('../../Assets/fotoRanger.jpg');
     background-size: cover;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Container6 {
+    height: 140vh;
   }
 }

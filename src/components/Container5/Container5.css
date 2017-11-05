@@ -27,7 +27,6 @@
   align-items: flex-end;
 }
 
-
 .container5Text {
   display: flex;
   width: 50%;
@@ -135,7 +134,7 @@
 }
 
 .movement6 {
-  animation: movement6 .8s;
+  animation: movement6 0.8s;
   animation-fill-mode: forwards;
 }
 
@@ -167,7 +166,7 @@
 
 @keyframes movement3 {
   0% {
-    transform: scale(1.0);
+    transform: scale(1);
   }
   20%,
   40%,
@@ -188,7 +187,7 @@
     opacity: 0;
   }
   100% {
-    transform: translateX(-230px) rotate(360deg) scale(.8);
+    transform: translateX(-230px) rotate(360deg) scale(0.8);
     opacity: 1;
   }
 }
@@ -198,7 +197,7 @@
     opacity: 0;
   }
   100% {
-    transform: translateX(125px) rotate(360deg) scale(.8);
+    transform: translateX(125px) rotate(360deg) scale(0.8);
     opacity: 1;
   }
 }
@@ -208,7 +207,7 @@
     opacity: 0;
   }
   100% {
-    transform: translateX(225px) translateY(195px) rotate(360deg) scale(.6);
+    transform: translateX(225px) translateY(195px) rotate(360deg) scale(0.6);
     opacity: 1;
   }
 }
@@ -218,16 +217,15 @@
     opacity: 0;
   }
   100% {
-    transform: translateX(-210px) translateY(250px) rotate(360deg) scale(.6);
+    transform: translateX(-210px) translateY(250px) rotate(360deg) scale(0.6);
     opacity: 1;
   }
 }
 
-
 @media screen and (max-width: 535px) {
   .Container5 {
-    height: 100vh;
-    display: flex;
+    height: 150vh;
+    flex-direction: column;
     justify-content: flex-end;
   }
 
@@ -236,13 +234,16 @@
   }
 
   .container5Text {
-    width: 60%;
-    align-self: flex-start;
-    padding: 0 0 0 7em;
+    width: 100%;
+    align-self: center;
+    padding: 0;
     align-self: center;
   }
 
   .container5Text h2 {
     font-size: 1.1em;
   }
+}
+
+@media screen and (max-width: 350px) {
 }

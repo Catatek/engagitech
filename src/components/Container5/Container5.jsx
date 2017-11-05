@@ -22,7 +22,6 @@ class Container5 extends Component {
           <img id="object5" src={Like} alt="Like" />
           <img id="object6" src={Touch} alt="Touch" />
           <img id="object7" src={Video} alt="Video" />
-
         </div>
         <div id="container5Id" className="container5Text">
           <h2>MEDIA STATION</h2>
