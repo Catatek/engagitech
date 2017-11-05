@@ -48,7 +48,7 @@ class Header extends Component {
               />
         <img src={Logo} className="engagitechLogo" alt="Engagitech Logo" />
         <div className="buttonDiv">
-          <h3>What we offer</h3>
+          <h3>Who we are</h3>
           <i class="fa fa-angle-down bounce" aria-hidden="true" />
         </div>
       </div>

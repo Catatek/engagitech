@@ -45,8 +45,10 @@ fs@font-face {
 }
 
 .hashtagSVG {
-  width: 400px;
-  height: 500px;
+  width: 405px;
+  height: 442px;
+  margin-top: 1.7em;
+  margin-right: .4em;
 }
 
 .div1 {
