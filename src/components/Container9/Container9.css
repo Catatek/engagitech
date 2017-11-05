@@ -13,6 +13,33 @@
   src: url('../../Assets/fonts/IntroBlackRegular.otf');
 }
 
+
+.blink-1{
+  animation: g10_010 1.5s;
+}
+
+.blink-2{
+  animation: g10_010 2.0s;
+}
+
+@keyframes g10_010 {
+  0% {
+    opacity: 0.5;
+  }
+  30% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .Container9 {
   height: 90vh;
   display: flex;
@@ -54,6 +81,8 @@
   width: 288px;
   height: 417px;
 }
+
+
 
 @media screen and (max-width: 535px) {
   .Container9 {

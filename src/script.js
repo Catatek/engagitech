@@ -61,6 +61,26 @@ $(document).ready(function() {
     .addTo(controller);
 });
 
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '#binarySVGID',
+  })
+    .setClassToggle('#blink-1', 'blink-1')
+    .addTo(controller);
+});
+
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: '#binarySVGID',
+  })
+    .setClassToggle('#blink-2', 'blink-2')
+    .addTo(controller);
+});
+
 //////////////////////////////////////
 //GRAYSCALE
 //////////////////////////////////////
