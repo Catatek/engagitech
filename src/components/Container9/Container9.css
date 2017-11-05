@@ -13,13 +13,20 @@
   src: url('../../Assets/fonts/IntroBlackRegular.otf');
 }
 
+@font-face {
+  font-family: 'Intro Bold';
+  src: url('../../Assets/fonts/IntroBoldRegular.otf');
+}
+
 
 .blink-1{
   animation: g10_010 1.5s;
+  animation-iteration-count: 3;
 }
 
 .blink-2{
   animation: g10_010 2.0s;
+  animation-iteration-count: 3;
 }
 
 @keyframes g10_010 {
