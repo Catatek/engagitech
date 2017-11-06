@@ -12,7 +12,7 @@ import Video from '../../Assets/video.png';
 class Container5 extends Component {
   render() {
     return (
-      <div className="Container5" id="trigger">
+      <div className="Container5" id="trigger container5Id">
         <div className="photoStation">
           <img className="station" src={Station} alt="Photo Booth Station" />
           <img id="object1" src={Phone} alt="phone" />
@@ -23,7 +23,7 @@ class Container5 extends Component {
           <img id="object6" src={Touch} alt="Touch" />
           <img id="object7" src={Video} alt="Video" />
         </div>
-        <div id="container5Id" className="container5Text">
+        <div className="container5Text" id="container5Fade">
           <h2>MEDIA STATION</h2>
           <p>Looking for a monster content creator?  </p>
           <p>

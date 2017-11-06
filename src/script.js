@@ -47,7 +47,7 @@ $(document).ready(function() {
   var ourScene = new ScrollMagic.Scene({
     triggerElement: '#container5Id',
   })
-    .setClassToggle('#container5Id', 'fade-in')
+    .setClassToggle('#container5Fade', 'fade-in')
     .addTo(controller);
 });
 

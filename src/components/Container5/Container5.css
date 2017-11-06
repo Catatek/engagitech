@@ -235,7 +235,10 @@
   .station {
     width: 150px;
     height: 250px;
-    /*margin: 0;*/
+    margin: 0 auto;
+    margin-top: 2em;
+    position: relative;
+
   }
 
   .photoStation {
@@ -251,39 +254,36 @@
     align-self: center;
   }
 
-  #object3 {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    display: none;
-  }
-
   #object1 {
     position: relative;
     bottom: 0em;
-    left: 0;
     z-index: -1;
     width: 34px;
     height: 34px;
+    display: none;
 }
-
-
 
   #object2 {
     position: relative;
     bottom: 18em;
     left: -15em;
     z-index: -1;
-    width: 50px;
-    height: 40px;
+    margin: 0 auto;
+    display: none;
   }
 
+  #object3 {
+    position: relative;
+    margin: 0 auto;
+    display: none;
+  }
 
   #object4 {
     position: relative;
     bottom: 17em;
     left: -24.3em;
     z-index: -1;
+    display: none;
   }
 
   #object5 {
@@ -291,6 +291,7 @@
     bottom: 20em;
     left: -27em;
     z-index: -1;
+    display: none;
   }
 
   #object6 {
@@ -298,6 +299,7 @@
     bottom: 18em;
     left: -35em;
     z-index: -1;
+    display: none;
   }
 
   #object7 {
@@ -305,6 +307,7 @@
     bottom: 18em;
     left: -43em;
     z-index: -1;
+    display: none;
   }
 
 
