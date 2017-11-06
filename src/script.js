@@ -8,6 +8,32 @@ import 'gsap';
 import TweenLite from 'gsap';
 
 //////////////////////////////////////
+//3D Movement
+//////////////////////////////////////
+
+$(document).mousemove(function(event) {
+  var mouseTranslate = {};
+  var movementDegrees = {};
+  var bodyHeight = $('body').height();
+  var bodyWidth = $('body').width();
+  var rotation = {};
+
+  mouseTranslate.x = (bodyWidth / 2 - event.pageX) / (bodyWidth / 2);
+  mouseTranslate.y = (bodyHeight / 2 - event.pageY) / (bodyHeight / 2);
+
+  movementDegrees.x = 40;
+  movementDegrees.y = 40;
+
+  rotation.x = Math.floor(mouseTranslate.x * movementDegrees.x) + 'deg';
+  rotation.y = Math.floor(mouseTranslate.y * movementDegrees.y) + 'deg';
+
+  $('#letsMove').css(
+    'transform',
+    'rotate3d(0,5,0,' + rotation.x + ') rotate3d(5,0,0,' + rotation.y + ')'
+  );
+});
+
+//////////////////////////////////////
 //COMPONENT FADE-IN/FADE-OUT FOR TEXT
 //////////////////////////////////////
 
@@ -15,7 +41,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container1Id',
+    triggerElement: '#container1Id'
   })
     .setClassToggle('#engagitechId', 'fade-out')
     .addTo(controller);
@@ -25,7 +51,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container3Id',
+    triggerElement: '#container3Id'
   })
     .setClassToggle('#container3Id', 'fade-in')
     .addTo(controller);
@@ -35,7 +61,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container4Id',
+    triggerElement: '#container4Id'
   })
     .setClassToggle('#container4Id', 'fade-in')
     .addTo(controller);
@@ -45,7 +71,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container5Id',
+    triggerElement: '#container5Id'
   })
     .setClassToggle('#container5Fade', 'fade-in')
     .addTo(controller);
@@ -55,7 +81,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container6Id',
+    triggerElement: '#container6Id'
   })
     .setClassToggle('#container6Id', 'fade-in')
     .addTo(controller);
@@ -65,7 +91,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container7Id',
+    triggerElement: '#container7Id'
   })
     .setClassToggle('#container7Id', 'fade-in')
     .addTo(controller);
@@ -75,7 +101,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container8Id',
+    triggerElement: '#container8Id'
   })
     .setClassToggle('#container8Id', 'fade-in')
     .addTo(controller);
@@ -85,7 +111,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container9Id',
+    triggerElement: '#container9Id'
   })
     .setClassToggle('#container9Id', 'fade-in')
     .addTo(controller);
@@ -95,7 +121,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container10Id',
+    triggerElement: '#container10Id'
   })
     .setClassToggle('#container10Id', 'fade-in')
     .addTo(controller);
@@ -105,7 +131,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container11Id',
+    triggerElement: '#container11Id'
   })
     .setClassToggle('#container11Id', 'fade-in')
     .addTo(controller);
@@ -115,7 +141,7 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#binarySVGID',
+    triggerElement: '#binarySVGID'
   })
     .setClassToggle('#blink-1', 'blink-1')
     .addTo(controller);
@@ -125,23 +151,9 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#binarySVGID',
+    triggerElement: '#binarySVGID'
   })
     .setClassToggle('#blink-2', 'blink-2')
-    .addTo(controller);
-});
-
-//////////////////////////////////////
-//3D
-//////////////////////////////////////
-
-$(function () {
-  var controller = new ScrollMagic.Controller();
-
-  var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container7Id',
-  })
-    .setClassToggle('#letsMove', 'letsMoveIt')
     .addTo(controller);
 });
 
@@ -149,11 +161,11 @@ $(function () {
 //Light Speed
 //////////////////////////////////////
 
-$(function () {
+$(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#container12Id',
+    triggerElement: '#container12Id'
   })
     .setClassToggle('#lightSpeed', 'yeahBoi')
     .addTo(controller);
@@ -163,11 +175,11 @@ $(function () {
 //GRAYSCALE
 //////////////////////////////////////
 
-$(function () {
+$(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
-    triggerElement: '#hashtagPartyColor',
+    triggerElement: '#hashtagPartyColor'
   })
     .setClassToggle('#hashtagPartyColor', 'lightsOn')
     .addTo(controller);
@@ -177,81 +189,72 @@ $(function () {
 //MOVEMENT
 //////////////////////////////////////
 
-
-$(function () {
-
+$(function() {
   var controller = new ScrollMagic.Controller();
 
   var scene = new ScrollMagic.Scene({
-    triggerElement: '#trigger',
+    triggerElement: '#trigger'
   })
     .setClassToggle('#object1', 'movement1')
     .addTo(controller);
-})
+});
 
-$(function () {
-
+$(function() {
   var controller = new ScrollMagic.Controller();
 
   var scene = new ScrollMagic.Scene({
-    triggerElement: '#trigger',
+    triggerElement: '#trigger'
   })
     .setClassToggle('#object2', 'movement2')
     .addTo(controller);
-})
+});
 
-$(function () {
-
+$(function() {
   var controller = new ScrollMagic.Controller();
 
   var scene = new ScrollMagic.Scene({
-    triggerElement: '#trigger',
+    triggerElement: '#trigger'
   })
     .setClassToggle('#object3', 'movement3')
     .addTo(controller);
-})
+});
 
-$(function () {
-
+$(function() {
   var controller = new ScrollMagic.Controller();
 
   var scene = new ScrollMagic.Scene({
-    triggerElement: '#trigger',
+    triggerElement: '#trigger'
   })
     .setClassToggle('#object4', 'movement4')
     .addTo(controller);
-})
+});
 
-$(function () {
-
+$(function() {
   var controller = new ScrollMagic.Controller();
 
   var scene = new ScrollMagic.Scene({
-    triggerElement: '#trigger',
+    triggerElement: '#trigger'
   })
     .setClassToggle('#object5', 'movement5')
     .addTo(controller);
-})
+});
 
-$(function () {
-
+$(function() {
   var controller = new ScrollMagic.Controller();
 
   var scene = new ScrollMagic.Scene({
-    triggerElement: '#trigger',
+    triggerElement: '#trigger'
   })
     .setClassToggle('#object6', 'movement6')
     .addTo(controller);
-})
+});
 
-
-$(function () {
-
+$(function() {
   var controller = new ScrollMagic.Controller();
 
   var scene = new ScrollMagic.Scene({
-    triggerElement: '#trigger',
+    triggerElement: '#trigger'
   })
     .setClassToggle('#object7', 'movement7')
     .addTo(controller);
-})
+});

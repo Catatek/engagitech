@@ -1,19 +1,29 @@
-import React, { Component } from 'react'
-import styles from './ScrollingHeader.css'
+import React, { Component } from 'react';
+import styles from './ScrollingHeader.css';
 import Logo from '../../Assets/engagitechLogo.png';
+import Mobilelogo from '../../Assets/favicon.png';
 
 class ScrollingHeader extends Component {
-  render () {
+  render() {
     return (
-    <div className='ScrollingHeader'>
-      <img className="scrollingHeaderLogo" src={Logo} alt="Engagitech Logo" />
-      <div className="contactInfo">
-        <h4>833.736.4243</h4>
-        <a href="https://form.jotform.com/73046790284158" target="_blank"><h3>Contact Us</h3></a>
+      <div className="ScrollingHeader">
+        <img
+          className="scrollingHeaderMobileLogo"
+          src={Mobilelogo}
+          alt="Engagitech Logo"
+        />
+        <img className="scrollingHeaderLogo" src={Logo} alt="Engagitech Logo" />
+        <div className="contactInfo">
+          <h4>833.736.4243</h4>
+          <div className="contactUsDiv">
+            <a href="https://form.jotform.com/73046790284158" target="_blank">
+              <h3>Contact Us</h3>
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-    )
+    );
   }
 }
 
-export default ScrollingHeader
+export default ScrollingHeader;
