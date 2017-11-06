@@ -46,13 +46,16 @@
 @media screen and (max-width: 535px) {
   .Container2 {
     flex-direction: column;
-    height: 100vh;
-    padding: 2em 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 6em 0;
   }
 
   .vrText {
     margin-top: 0;
     letter-spacing: 0.5em;
+    margin-bottom: 6em;
   }
 
   .vrText span {
@@ -70,6 +73,7 @@
     display: inline;
     width: 150px;
     height: 140px;
+    margin-bottom: 6em;
   }
 
   .globe {

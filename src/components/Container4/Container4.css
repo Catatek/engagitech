@@ -67,17 +67,17 @@ fs@font-face {
   transition: all 2s ease-in;
 }
 
-@media screen and (max-width: 535px) {
+@media (max-width: 535px) {
   .Container4 {
-    height: 120vh;
+    height: 100%;
     flex-direction: column;
   }
 
   .div1 {
-    width: 80%;
+    width: 85%;
     flex-direction: column;
     justify-content: center;
-    padding: 0 2em;
+    padding: 5em 2em;
   }
 
   .div2 {
@@ -93,8 +93,10 @@ fs@font-face {
   }
 
   .hashtagSVG {
-    width: 100px;
-    height: 200px;
+    width: 275px;
+    height: 300px;
+    margin-bottom: 4em;
+    margin-left: 1em;
   }
 }
 

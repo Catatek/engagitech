@@ -70,23 +70,29 @@
 
 @media screen and (max-width: 535px) {
   .Container8 {
+    flex-direction: column;
     align-content: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
   }
 
   .container8Text {
-    width: 55%;
-    padding-left: 1em;
+    width: 85%;
+    padding: 3em 0;
   }
 
   .container8Text h2 {
-    font-size: 2em;
     padding-bottom: 0;
   }
 
   .container8Text h3 {
     padding-top: 0;
+  }
+
+  .selfieImage {
+    height: 500px;
+    width: 100%;
+    align-items: flex-end;
   }
 }
 

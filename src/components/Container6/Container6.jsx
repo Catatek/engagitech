@@ -16,7 +16,7 @@ class Container6 extends Component {
             never looked so good.
           </p>
         </div>
-        <div className="photoRanger" />
+        <div className="photoRanger"></div>
       </div>
     );
   }
