@@ -15,6 +15,16 @@ $(document).ready(function() {
   var controller = new ScrollMagic.Controller();
 
   var ourScene = new ScrollMagic.Scene({
+    triggerElement: '#container1Id',
+  })
+    .setClassToggle('#engagitechId', 'fade-out')
+    .addTo(controller);
+});
+
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
     triggerElement: '#container3Id',
   })
     .setClassToggle('#container3Id', 'fade-in')
