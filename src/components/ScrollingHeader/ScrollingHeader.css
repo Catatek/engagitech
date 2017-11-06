@@ -37,8 +37,18 @@
   color: rgba(0, 0, 0, 1);
 }
 
-@media screen and (max-width: 550px) {
-  .ScrollingHeader {
-    display: none;
+@media (max-width: 550px) {
+  .ScrollingHeader img {
+    width: 130px;
+    height: 30px;
+  }
+
+  .contactInfo h4 {
+    font-size: .5em;
+  }
+
+  .contactInfo h3 {
+    font-size: .8em;
+    padding: 2em 1em;
   }
 }

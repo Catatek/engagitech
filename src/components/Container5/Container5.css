@@ -229,17 +229,18 @@
     justify-content: space-around;
     align-items: center;
     width: 90%;
+    margin: 0 auto;
   }
 
   .station {
     width: 150px;
-    height: 300px;
-    padding-top: 4em;
-    margin: 0;
+    height: 250px;
+    /*margin: 0;*/
   }
 
   .photoStation {
-    margin: 0;
+    margin: 3em 0;
+    padding-top: 1em;
     width: 90%;
   }
 
@@ -250,14 +251,23 @@
     align-self: center;
   }
 
-  /*#object1 {
+  #object3 {
     position: relative;
-    bottom: 18em;
-    left: -10em;
+    bottom: 0;
+    left: 0;
+    display: none;
+  }
+
+  #object1 {
+    position: relative;
+    bottom: 0em;
+    left: 0;
     z-index: -1;
     width: 34px;
     height: 34px;
-  }
+}
+
+
 
   #object2 {
     position: relative;
@@ -268,11 +278,6 @@
     height: 40px;
   }
 
-  #object3 {
-    position: relative;
-    bottom: 29.8em;
-    left: -21.5em;
-  }
 
   #object4 {
     position: relative;
@@ -300,7 +305,7 @@
     bottom: 18em;
     left: -43em;
     z-index: -1;
-  }*/
+  }
 
 
 }

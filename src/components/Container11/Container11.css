@@ -65,16 +65,17 @@
   margin-top: -0.5em;
 }
 
-@media screen and (max-width: 535px) {
+@media (max-width: 535px) {
   .Container11 {
-    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .container11Text {
     align-items: center;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    width: 85%;
+    padding: 3em;
   }
 
   .container11Text h2 {
@@ -86,13 +87,6 @@
     width: 80%;
   }
 
-  .container11Image {
-    display: none;
-  }
-
-  #madness {
-    margin-top: 0em;
-  }
 }
 
 @media screen and (max-width: 350px) {

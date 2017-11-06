@@ -71,6 +71,7 @@
 @media (max-width: 535px) {
   .Container10 {
     height: 100%;
+    padding: 3em 0;
   }
 
   .container10Row {
@@ -80,7 +81,8 @@
   }
 
   .container10Header {
-    padding-bottom: 0;
+    padding-bottom: 3em;
+    padding-top: 1.6em;
   }
 
   .container10Text {

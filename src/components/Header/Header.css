@@ -82,7 +82,6 @@ canvas {
   }
 
   .engagitechLogo {
-    width: 310px;
-    height: 70px;
+    display: none;
   }
 }

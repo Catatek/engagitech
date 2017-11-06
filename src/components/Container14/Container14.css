@@ -38,13 +38,13 @@
   line-height: 1.4em;
 }
 
-@media screen and (max-width: 350px) {
-  .container14Text h2 {
-    font-size: 2em;
-    padding-bottom: 0.5em;
-    margin-top: 1em;
-  }
+@media (max-width: 530px) {
   .Container14 {
-    height: 140vh;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .container14Text {
+    width: 85%;
   }
 }

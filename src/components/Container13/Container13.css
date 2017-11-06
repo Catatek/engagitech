@@ -45,10 +45,11 @@
   padding: 0.2em 0;
 }
 
-@media screen and (max-width: 535px) {
+@media (max-width: 535px) {
   .Container13 {
-    height: 82vh;
+    height: 100%;
     background-position: right;
+    align-items: center;
   }
 
   .socialMedia {
@@ -56,8 +57,12 @@
     flex-direction: row;
   }
 
+  .container13Row {
+    margin-top: 4em;
+  }
+
   .container13Row h3 {
-    letter-spacing: 0.2em;
+    margin-left: 1.5em;
   }
 
   .socialMedia {
@@ -69,6 +74,6 @@
   .socialMedia i {
     color: #fd6d6e;
     font-size: 2em;
-    padding: 0;
+    padding: 1em;
   }
 }
