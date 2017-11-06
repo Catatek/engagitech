@@ -12,8 +12,8 @@ import Video from '../../Assets/video.png';
 class Container5 extends Component {
   render() {
     return (
-      <div className="Container5" id="trigger container5Id">
-        <div className="photoStation">
+      <div className="Container5" id="trigger">
+        <div className="photoStation" id="container5Id">
           <img className="station" src={Station} alt="Photo Booth Station" />
           <img id="object1" src={Phone} alt="phone" />
           <img id="object2" src={Polaroids} alt="polaroids" />

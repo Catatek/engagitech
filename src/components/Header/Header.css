@@ -79,10 +79,12 @@ canvas {
 @media screen and (max-width: 535px) {
   .Header {
     flex-direction: row;
+    align-items: center;
   }
 
   .engagitechLogo {
     width: 375px;
     height: 70px;
+    margin-bottom: 6em;
   }
 }

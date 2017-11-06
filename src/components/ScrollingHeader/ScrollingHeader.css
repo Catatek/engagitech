@@ -37,7 +37,11 @@
   color: rgba(0, 0, 0, 1);
 }
 
-@media (max-width: 550px) {
+@media (max-width: 530px) {
+  .ScrollingHeader {
+    width: 100%;
+  }
+
   .ScrollingHeader img {
     width: 150px;
     height: 30px;
@@ -45,10 +49,11 @@
 
   .contactInfo h4 {
     font-size: .6em;
+    padding: 0;
   }
 
   .contactInfo h3 {
     font-size: .8em;
-    padding: 2em 1em;
+    padding: 2em .3em;
   }
 }
