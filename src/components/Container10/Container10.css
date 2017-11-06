@@ -14,9 +14,10 @@
 }
 
 .Container10 {
-  height: 90vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  padding: 3em 0;
 }
 
 .container10Row {
