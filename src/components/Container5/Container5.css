@@ -20,6 +20,10 @@
   position: relative;
 }
 
+.stationMobile {
+  display: none;
+}
+
 .photoStation {
   display: flex;
   width: 50%;
@@ -237,15 +241,20 @@
     width: 150px;
     height: 250px;
     margin: 0 auto;
-    margin-top: 2em;
+    margin-top: 3em;
     position: relative;
-
+    display: none;
   }
+
 
   .photoStation {
     margin: 3em 0;
-    padding-top: 1em;
+    padding-top: 3em;
     width: 90%;
+    background-image: url('../../Assets/mediaStationMobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10em 0;
   }
 
   .container5Text {

@@ -8,6 +8,7 @@ import Heart from '../../Assets/heart.svg';
 import Like from '../../Assets/like.png';
 import Touch from '../../Assets/touch.png';
 import Video from '../../Assets/video.png';
+import MobileStation from '../../Assets/mediaStationMobile.png';
 
 class Container5 extends Component {
   render() {

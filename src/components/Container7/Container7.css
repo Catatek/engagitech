@@ -23,7 +23,6 @@
 .flowCam {
   width: 55%;
   height: 100%;
-  background-image: url('../../Assets/flowCam.jpg');
   background-size: cover;
 }
 

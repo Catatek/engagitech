@@ -52,7 +52,7 @@ class Container9 extends Component {
                   transform="translate(610.000000, 250.000000)"
                 >
                   <g className="Group-10">
-                    <text id="blink-1" className="blink-1" fill="#FFFFFF">
+                    <text id="blink-2" className="blink-1" fill="#FFFFFF">
                       <tspan x="0" y="46">
                         010
                       </tspan>
@@ -62,7 +62,7 @@ class Container9 extends Component {
                         00
                       </tspan>
                     </text>
-                    <text id="blink-2" className="blink-2" fill="#FFFFFF">
+                    <text className="blink-2" fill="#FFFFFF">
                       <tspan x="147.12" y="46">
                         10
                       </tspan>

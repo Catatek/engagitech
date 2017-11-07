@@ -1,4 +1,4 @@
-fs@font-face {
+@font-face {
   font-family: 'Intro Book';
   src: url('../../Assets/fonts/IntroBookRegular.otf');
 }
@@ -48,7 +48,7 @@ fs@font-face {
   width: 405px;
   height: 442px;
   margin-top: 1.7em;
-  margin-right: .4em;
+  margin-right: 0.4em;
 }
 
 .div1 {

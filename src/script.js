@@ -33,6 +33,29 @@ $(document).mousemove(function(event) {
   );
 });
 
+
+$(document).mousemove(function(event) {
+  var mouseTranslate = {};
+  var movementDegrees = {};
+  var bodyHeight = $('body').height();
+  var bodyWidth = $('body').width();
+  var rotation = {};
+
+  mouseTranslate.x = (bodyWidth / 2 - event.pageX) / (bodyWidth / 2);
+  mouseTranslate.y = (bodyHeight / 2 - event.pageY) / (bodyHeight / 2);
+
+  movementDegrees.x = 15;
+  movementDegrees.y = 15;
+
+  rotation.x = Math.floor(mouseTranslate.x * movementDegrees.x) + 'deg';
+  rotation.y = Math.floor(mouseTranslate.y * movementDegrees.y) + 'deg';
+
+  $('#letsMoveItYeah').css(
+    'transform',
+    'rotate3d(0,1,0,' + rotation.x + ') rotate3d(1,0,0,' + rotation.y + ')'
+  );
+});
+
 //////////////////////////////////////
 //COMPONENT FADE-IN/FADE-OUT FOR TEXT
 //////////////////////////////////////

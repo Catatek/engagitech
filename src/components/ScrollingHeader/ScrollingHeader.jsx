@@ -14,7 +14,7 @@ class ScrollingHeader extends Component {
         />
         <img className="scrollingHeaderLogo" src={Logo} alt="Engagitech Logo" />
         <div className="contactInfo">
-          <h4>833.736.4243</h4>
+          <a href="tel:833.736.4243"><h4>833.736.4243</h4></a>
           <div className="contactUsDiv">
             <a href="https://form.jotform.com/73046790284158" target="_blank">
               <h3>Contact Us</h3>
