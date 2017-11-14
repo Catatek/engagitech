@@ -7,10 +7,13 @@ class Container13 extends Component {
     return (
       <div className="Container13">
         <div className="bookNow">
-          <h2>Book Now</h2>
+          <a href="https://form.jotform.com/73046790284158" target="_blank">
+            <h2>Get In Touch</h2>
+          </a>
         </div>
         <div className="container13Row">
-          <h3>Connect with us</h3>
+          {/* <h3>Connect with us</h3> */}
+          <img className="footerLogo" src={Logo} alt="Engagitech Logo" />
           <div className="socialMedia">
             <a href="">
               <i class="fa fa-facebook" aria-hidden="true" />

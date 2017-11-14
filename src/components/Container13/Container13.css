@@ -1,7 +1,11 @@
 .Container13 {
   height: 80vh;
-  background-image: url('../../Assets/spaceFooter.jpg');
+  background-image: url('../../Assets/spaceHeader.jpg');
   background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .bookNow {
@@ -21,28 +25,34 @@
   font-family: 'Core Circus', sans-serif;
 }
 
+.footerLogo {
+  width: 400px;
+  height: 75px;
+}
+
 .container13Row {
-  padding: 0 2.6em;
   display: flex;
   flex-direction: column;
-  margin-top: 6.9em;
+  margin-bottom: 0.8em;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .socialMedia {
   display: flex;
-  flex-direction: column;
 }
 
-.container13Row h3 {
+/*.container13Row h3 {
   font-family: 'Core Circus', sans-serif;
   color: #ffffff;
   letter-spacing: 0.1em;
-}
+}*/
 
 .socialMedia i {
   color: #fd6d6e;
-  font-size: 3em;
-  padding: 0.2em 0;
+  font-size: 2.5em;
+  padding: 0em 0.3em;
+  padding-top: 0.8em;
 }
 
 @media (max-width: 535px) {
