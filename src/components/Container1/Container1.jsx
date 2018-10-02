@@ -1,15 +1,25 @@
-import React, { Component } from 'react'
-import styles from './Container1.css'
+import React, { Component } from "react";
+import styles from "./Container1.css";
 
 class Container1 extends Component {
-  render () {
+  render() {
     return (
-    <div className='Container1' id="container1Id">
-      <p><span id="engagitechId" className="introHeader">Engagitech</span> is an event marketing firm committed to partnering with companies  who see event marketing as a powerful platform for expanding their brand equity.</p>
-      <p>We use our expertise to strategically enhance engagement, and deepen brand relationships through  high-caliber, interactive, and immersive technology.</p>
-    </div>
-    )
+      <div className="Container1" id="container1Id">
+        <p>
+          <span id="engagitechId" className="introHeader">
+            Engagitech
+          </span>
+          is a full service digital marketing agency committed to partnering
+          with companies who see digital advertising as a powerful medium for
+          expanding their brand equity and revenue.
+        </p>
+        <p>
+          We use our expertise to strategically increase customer acquisition,
+          through engaging content and automated work flows.
+        </p>
+      </div>
+    );
   }
 }
 
-export default Container1
+export default Container1;
