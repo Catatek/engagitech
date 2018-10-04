@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import styles from "./Container1.css";
+import styles from "./About.css";
 
-class Container1 extends Component {
+class About extends Component {
   render() {
     return (
       <div className="Container1" id="container1Id">
@@ -22,4 +22,4 @@ class Container1 extends Component {
   }
 }
 
-export default Container1;
+export default About;

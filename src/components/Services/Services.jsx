@@ -1,29 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import { Text, Row, Line, ContentTitle } from "../../theme/index";
 
 const Wrapper = styled.div`
-  height: 70vh;
+  height: 100%;
   background-color: #2b2b2b;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 4em 0;
 `;
 
-const Text = styled.p`
-  color: #fff;
-  font-size: 48px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  line-height: 1.8em;
-  @media (max-width: 768px) {
-    font-size: 30px;
-    line-height: 1.6em;
-  }
-`;
-
-const StyledRow = styled.div`
-display: flex;
-  margin: 2em auto;
+const StyledRow = styled(Row)`
+margin: 2em auto;
   width: 60%;
   @media (max-width: 768px) {
    width: 95%;
@@ -31,20 +17,42 @@ display: flex;
    justify-content: center;
 `;
 
+const Span = styled.span`
+  color: #ec7673;
+`;
+
 const Services = () => (
   <Wrapper>
+    <Row justifycontent="flex-end">
+      <Line secondary bottom="1.5em" />
+      <ContentTitle color="#fff">Services</ContentTitle>
+    </Row>
     <StyledRow>
       <div>
-        <Text>Our services</Text>
-        <Text>Digital Advertising</Text>
-        <Text>Creative Services</Text>
-        <Text>Lead Generation</Text>
-        <Text>SEO</Text>
-        <Text>Social Media Management</Text>
-        <Text>Business Consulting</Text>
-        <Text>Web Development</Text>
-        <Text>Website Design</Text>
-        <Text>Workflow Automation</Text>
+        <Text large>
+          Digital Advertising <Span> + </Span>
+          <br />
+          Creative Services
+          <Span> + </Span>
+          <br />
+          Lead Generation
+          <Span> + </Span>
+          <br />
+          SEO
+          <Span> + </Span>
+          Social Media Management
+          <Span> + </Span>
+          <br />
+          Business Consulting
+          <Span> + </Span>
+          Web Development
+          <Span> + </Span>
+          <br />
+          Website Design
+          <Span> + </Span>
+          <br />
+          Workflow Automation
+        </Text>
       </div>
     </StyledRow>
   </Wrapper>
