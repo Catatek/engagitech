@@ -4,7 +4,8 @@ import Header from "../Header/Header";
 import About from "../About/About";
 import Services from "../Services/Services";
 import Container1 from "../Container1/Container1";
-import Container13 from "../Container13/Container13";
+import Container2 from "../Container2/Container2";
+import Footer from "../Footer/Footer";
 import Approach from "../Approach/Approach";
 
 class Index extends Component {
@@ -16,8 +17,9 @@ class Index extends Component {
         <About />
         <Services />
         <Approach />
-        <Container1 />
-        <Container13 />
+        <Container1 title="Digital Advertising" />
+        <Container2 title="Digital Advertising" />
+        <Footer />
       </div>
     );
   }

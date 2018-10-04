@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import styles from './Container13.css';
-import Logo from '../../Assets/engagitechLogo.png';
+import React, { Component } from "react";
+import styles from "./Footer.css";
+import Logo from "../../Assets/engagitechLogo.png";
 
 class Container13 extends Component {
   render() {
@@ -13,13 +13,13 @@ class Container13 extends Component {
           <h3>Connect with us</h3>
           <div className="socialMedia">
             <a href="">
-              <i class="fa fa-facebook" aria-hidden="true" />
+              <i className="fa fa-facebook" aria-hidden="true" />
             </a>
             <a href="">
-              <i class="fa fa-instagram" aria-hidden="true" />
+              <i className="fa fa-instagram" aria-hidden="true" />
             </a>
             <a href="">
-              <i class="fa fa-twitter" aria-hidden="true" />
+              <i className="fa fa-twitter" aria-hidden="true" />
             </a>
           </div>
         </div>

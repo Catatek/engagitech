@@ -25,14 +25,14 @@ const Div = styled.div`
   justify-content: center;
 `;
 
-export default function Container1({ title, description }) {
+export default function Container2({ title, description }) {
   return (
     <Wrapper>
+      <Div />
       <StyledColumn>
         <Title>{title}</Title>
         <Text white>{description}</Text>
       </StyledColumn>
-      <Div />
     </Wrapper>
   );
 }
