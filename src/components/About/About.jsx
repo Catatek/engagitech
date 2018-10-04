@@ -6,9 +6,7 @@ class About extends Component {
     return (
       <div className="Container1" id="container1Id">
         <p>
-          <span id="engagitechId" className="introHeader">
-            Engagitech
-          </span>
+          <span className="introHeader">Engagitech</span>
           is a full service digital marketing agency committed to partnering
           with companies who see digital advertising as a powerful medium for
           expanding their brand equity and revenue.

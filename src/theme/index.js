@@ -14,8 +14,14 @@ export const ContentTitle = styled.h2`
   }
 `;
 
+export const Title = styled.h2`
+  color: #ffffff;
+  font-family: "Intro Black", sans-serif;
+  font-size: 2.5em;
+`;
+
 export const Text = styled.p`
-  color: #2b2b2b;
+  color: ${props => (props.white ? "#fff" : "#2b2b2b")};
   font-size: 16px;
   font-family: "Intro Book", sans-serif;
   font-weight: 400;
@@ -25,6 +31,7 @@ export const Text = styled.p`
     font-size: 30px;
     line-height: 1.6em;
   }
+
   ${props =>
     props.large &&
     css`

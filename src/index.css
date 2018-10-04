@@ -1,5 +1,15 @@
-@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
-@import './normalize.css';
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "./normalize.css";
+
+@font-face {
+  font-family: "Intro Book";
+  src: url("./Assets/fonts/IntroBookRegular.otf");
+}
+
+@font-face {
+  font-family: "Intro Black";
+  src: url("./Assets/fonts/IntroBlackRegular.otf");
+}
 
 body {
   margin: 0;

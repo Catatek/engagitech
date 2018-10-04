@@ -3,7 +3,7 @@ import ScrollingHeader from "../ScrollingHeader/ScrollingHeader";
 import Header from "../Header/Header";
 import About from "../About/About";
 import Services from "../Services/Services";
-import Container4 from "../Container4/Container4";
+import Container1 from "../Container1/Container1";
 import Container13 from "../Container13/Container13";
 import Approach from "../Approach/Approach";
 
@@ -16,7 +16,7 @@ class Index extends Component {
         <About />
         <Services />
         <Approach />
-        <Container4 />
+        <Container1 />
         <Container13 />
       </div>
     );

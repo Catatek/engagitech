@@ -8,7 +8,7 @@
 }
 
 .Container1 p {
-  font-family: 'Intro Book', sans-serif;
+  font-family: "Intro Book", sans-serif;
   color: #ffffff;
   line-height: 1.5em;
   font-size: 1.3em;
@@ -16,11 +16,10 @@
 }
 
 .introHeader {
-  font-family: 'Core Circus', sans-serif;
+  font-family: "Core Circus", sans-serif;
   color: #fd6d6e;
   font-size: 1.8em;
   text-transform: uppercase;
-  opacity: 0;
 }
 
 .fade-out {
@@ -46,7 +45,7 @@
   }
 
   .Container1 p {
-    font-family: 'Intro Book', sans-serif;
+    font-family: "Intro Book", sans-serif;
     color: #ffffff;
     line-height: 1.5em;
     font-size: 1.2em;
@@ -54,7 +53,7 @@
   }
 
   .introHeader {
-    font-family: 'Core Circus', sans-serif;
+    font-family: "Core Circus", sans-serif;
     color: #fd6d6e;
     font-size: 1.5em;
     text-transform: uppercase;
