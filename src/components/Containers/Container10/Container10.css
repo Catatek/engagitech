@@ -1,18 +1,3 @@
-@font-face {
-  font-family: 'Intro Book';
-  src: url('../../Assets/fonts/IntroBookRegular.otf');
-}
-
-@font-face {
-  font-family: 'Core Circus';
-  src: url('../../Assets/fonts/CoreCircus.otf');
-}
-
-@font-face {
-  font-family: 'Intro Black';
-  src: url('../../Assets/fonts/IntroBlackRegular.otf');
-}
-
 .Container10 {
   height: 100%;
   display: flex;
@@ -30,7 +15,7 @@
 }
 
 .container10Header {
-  font-family: 'Core Circus', sans-serif;
+  font-family: "Core Circus", sans-serif;
   color: #2b2b2b;
   font-size: 1.5em;
   text-align: center;
@@ -58,13 +43,13 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family: 'Intro Black', sans-serif;
+  font-family: "Intro Black", sans-serif;
   color: #fd6d6e;
   font-size: 2em;
 }
 
 .container10Text p {
-  font-family: 'Intro Book', sans-serif;
+  font-family: "Intro Book", sans-serif;
   color: #2b2b2b;
   line-height: 1.4em;
 }
