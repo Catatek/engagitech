@@ -6,7 +6,7 @@ import Hashtag from "../../Assets/hashtagParty.jpg";
 const Wrapper = styled.div`
   display: flex;
   height: 90vh;
-  background-color: #2b2b2b;
+  background-color: #fff;
   width: 100%;
 `;
 
@@ -17,7 +17,7 @@ const StyledColumn = styled(Column)`
 `;
 
 const Div = styled.div`
-  background: url('${Hashtag}');
+  background: ${props => props.img};
   background-size: cover;
   width: 50%;
   display: flex;
@@ -25,13 +25,13 @@ const Div = styled.div`
   justify-content: center;
 `;
 
-export default function Container2({ title, description }) {
+export default function Container2({ title, description, img }) {
   return (
     <Wrapper>
-      <Div />
+      <Div img={`url('${img}')`} />
       <StyledColumn>
-        <Title>{title}</Title>
-        <Text white>{description}</Text>
+        <Title margin="0 0 0 1em">{title}</Title>
+        <Text>{description}</Text>
       </StyledColumn>
     </Wrapper>
   );

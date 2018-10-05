@@ -15,9 +15,10 @@ export const ContentTitle = styled.h2`
 `;
 
 export const Title = styled.h2`
-  color: #ffffff;
+  color: ${props => (props.white ? "#fff" : "#2b2b2b")};
   font-family: "Intro Black", sans-serif;
   font-size: 2.5em;
+  margin: ${props => props.margin || "0"};
 `;
 
 export const Text = styled.p`
