@@ -12,7 +12,7 @@
 
 .scrollingHeaderLogo {
   width: 236px;
-  height: 42px;
+  height: 32px;
   margin-left: 1em;
   order: 0;
   position: relative;
@@ -31,14 +31,14 @@
 
 .contactInfo h4 {
   color: #ffffff;
-  font-family: 'Core Circus', sans-serif;
+  font-family: "Core Circus", sans-serif;
   margin-right: 2em;
 }
 
 .contactUsDiv {
   background-color: rgba(253, 111, 110, 0.7);
   height: 100%;
-  font-family: 'Intro Bold', sans-serif;
+  font-family: "Intro Bold", sans-serif;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@
 
   .scrollingHeaderMobileLogo {
     position: relative;
-    right: .9em;
+    right: 0.9em;
     width: 50px;
     height: 50px;
     justify-content: flex-start;
