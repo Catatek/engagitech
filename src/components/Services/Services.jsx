@@ -23,9 +23,11 @@ const Span = styled.span`
 
 const Services = () => (
   <Wrapper>
-    <Row justifycontent="flex-end">
+    <Row>
       <Line secondary bottom="1.5em" />
-      <ContentTitle color="#fff">Services</ContentTitle>
+      <ContentTitle content1 color="#fff">
+        Services
+      </ContentTitle>
     </Row>
     <StyledRow>
       <div>

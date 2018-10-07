@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="448px" viewBox="0 0 512 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>briefcase-light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="briefcase-light" fill="#EC7673" fill-rule="nonzero">
+            <path d="M464,96 L352,96 L352,24 C352,10.74 341.26,0 328,0 L184,0 C170.74,0 160,10.74 160,24 L160,96 L48,96 C21.49,96 0,117.49 0,144 L0,400 C0,426.51 21.49,448 48,448 L464,448 C490.51,448 512,426.51 512,400 L512,144 C512,117.49 490.51,96 464,96 Z M192,32 L320,32 L320,96 L192,96 L192,32 Z M480,400 C480,408.82 472.82,416 464,416 L48,416 C39.18,416 32,408.82 32,400 L32,256 L192,256 L192,296 C192,309.25 202.75,320 216,320 L296,320 C309.25,320 320,309.25 320,296 L320,256 L480,256 L480,400 Z M224,288 L224,256 L288,256 L288,288 L224,288 Z M480,224 L32,224 L32,144 C32,135.18 39.18,128 48,128 L464,128 C472.82,128 480,135.18 480,144 L480,224 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

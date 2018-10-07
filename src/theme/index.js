@@ -51,6 +51,12 @@ export const Text = styled.p`
       color: #fd6d6e;
       margin: .6em 0;
     `};
+  ${props =>
+    props.about &&
+    css`
+      font-size: 22px;
+      color: #fff;
+    `};
 `;
 
 // CONTAINERS
@@ -97,7 +103,7 @@ export const Line = styled.div`
   ${props =>
     props.secondary &&
     css`
-      right: 0;
+      left: 0;
       background-color: #fff;
     `};
 `;
