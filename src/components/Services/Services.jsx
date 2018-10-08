@@ -9,12 +9,13 @@ const Wrapper = styled.div`
 `;
 
 const StyledRow = styled(Row)`
-margin: 2em auto;
+  margin: 2em auto;
   width: 60%;
   @media (max-width: 768px) {
-   width: 95%;
-   margin: 2em 0;
-   justify-content: center;
+    width: 95%;
+    margin: 2em 0;
+    justify-content: center;
+  }
 `;
 
 const Span = styled.span`

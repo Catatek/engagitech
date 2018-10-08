@@ -28,11 +28,6 @@ export const Text = styled.p`
   font-weight: 400;
   margin: ${props => props.margin || "0"};
   line-height: 2.4em;
-  @media (max-width: 768px) {
-    font-size: 30px;
-    line-height: 1.6em;
-  }
-
   ${props =>
     props.large &&
     css`
@@ -40,6 +35,9 @@ export const Text = styled.p`
       color: #fff;
       font-size: 48px;
       font-weight: 400;
+      @media (max-width: 768px) {
+        font-size: 22px;
+      }
     `};
   ${props =>
     props.title &&
@@ -56,6 +54,11 @@ export const Text = styled.p`
     css`
       font-size: 22px;
       color: #fff;
+    `};
+  ${props =>
+    props.bullets &&
+    css`
+      font-weight: 600;
     `};
 `;
 

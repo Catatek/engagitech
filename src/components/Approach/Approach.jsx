@@ -29,7 +29,7 @@ const Icon = styled.img`
 
 function StyledColumn({ title, description, img }) {
   return (
-    <Column alignitems="center" width="30%" margin="0 1em">
+    <Column alignitems="center" width="25%" margin="0 1.5em">
       <Icon src={img} alt={`${img} Icon`} />
       <Text title>{title}</Text>
       <Text>{description}</Text>
@@ -47,20 +47,17 @@ export default function Approach() {
       <StyledRow>
         <StyledColumn
           title="Analysis"
-          description=" We look at digital marketing from a full-picture perspective. We start by performing a marketing analysis report that outlines key metrics such as customer satisfaction scores, online visibility, accurate listings of your business, SEO ratings, strength of brand, and ease of accessibility."
+          description="We look at digital marketing holistically. Starting with a marketing analysis report that outlines key metrics such as customer satisfaction scores, online visibility, accurate listings, SEO ratings,  and strength of the brand."
           img={analyze}
         />
         <StyledColumn
           title="Strategy"
-          description=" Once we have an analysis, we’ll begin strategizing on the best
-          solutions to address the most critical areas within the business.
-          We’ll provide an easy and clear solution on how to improve those
-          areas. Then we’ll create an implementation plan to execute."
+          description="After analysis, we’ll strategize on the best solutions to address the most critical areas within the business. We’ll provide an easy and clear solution, then we’ll create an implementation plan to execute."
           img={strategize}
         />
         <StyledColumn
           title="Execution"
-          description=" The final stage in our process is implementation. We’ll build out a roll out plan to equip the organization with the tools it needs to get the results necessary for growth."
+          description="Using our marketing platform, we’ll visually show the implementation and roll out process. This process can be easily pulled up using our Client Portal, and manage from one point of access to ensure a smooth roll out."
           img={execute}
         />
       </StyledRow>
